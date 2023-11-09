@@ -5,25 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
-    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="">
+    <link rel="icon" href="/public/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/public/css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&amp;family=Roboto&amp;display=swap">
-   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+  
 </head>
 <body>
     <header>
         <section class="container">
 
             <div>
-                <img src="/img/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
+                <img src="/public/img/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
 
             </div>
             <div>
-                <form>
-                    <input type="text" placeholder="Buscar productos..." aria-label="Search">
-                    <button></button>
-                </form>
+                <form class="busqueda">
+                    <input class="form-control"  type="text" placeholder="Buscar productos" aria-label="Search">
+                    <button type="submit" class="icoLu"><i class="fas fa-search"></i></button>
+                </form>  
 
             </div>
             <div>
@@ -44,12 +45,14 @@
 
 
             </div>
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+                </div>
     
         </section>
         
     </header>
 
-    
     <footer>
         <h2>Pagá con tarjeta o en efectivo</h2>
         <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
